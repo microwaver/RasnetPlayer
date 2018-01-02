@@ -39,7 +39,7 @@
     <string name="widget_initial_text">Touch to select music.</string>
     -->
 
-    <string name="app_name">MPDroid</string>
+    <string name="app_name">Rasnet Player</string>
     <string name="artists">Artists</string>
     <string name="genres">Genres</string>
     <string name="playlists">Playlists</string>

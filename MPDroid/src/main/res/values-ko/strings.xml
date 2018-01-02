@@ -39,7 +39,7 @@
     <string name="widget_initial_text">음악을 선택하려면 터치합니다.</string>
     -->
 
-    <string name="app_name">MPDroid</string>
+    <string name="app_name">Rasnet Player</string>
     <string name="artists">연주자</string>
     <string name="genres">장르</string>
     <string name="playlists">연주목록</string>
