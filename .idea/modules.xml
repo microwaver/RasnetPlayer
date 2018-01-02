@@ -5,8 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JMPDComm/backends/android/JMPDCommAndroid.iml" filepath="$PROJECT_DIR$/JMPDComm/backends/android/JMPDCommAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/JMPDComm/backends/java/JMPDCommJava.iml" filepath="$PROJECT_DIR$/JMPDComm/backends/java/JMPDCommJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/MPDroid/MPDroid.iml" filepath="$PROJECT_DIR$/MPDroid/MPDroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dmix.iml" filepath="$PROJECT_DIR$/dmix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RasnetPlayer.iml" filepath="$PROJECT_DIR$/RasnetPlayer.iml" />
     </modules>
   </component>
 </project>
-
