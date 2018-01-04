@@ -19,4 +19,6 @@
     <color name="accent_dark">#e0e0e0</color>
     <color name="nowplaying_slider_background_color">#ff1a1a1a</color>
     <color name="nowplaying_slider_background_color_light">#ffffffff</color>
+
+    <color name="main_bg">#ff2c303f</color>
 </resources>

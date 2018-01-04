@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:background="@color/connect_bg" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent">
+    <RelativeLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="UNKNOWN_DATA_0x8c01" 
+    	android:layout_marginTop="83dp" 
+    	android:layout_centerHorizontal="true">
+        <ImageView 
+        	android:id="@+id/img_loading" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/device" 
+        	android:layout_centerInParent="true" />
+        <ProgressBar 
+        	android:id="@+id/progress_loading" 
+        	android:visibility="invisible" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:layout_centerInParent="true" 
+        	style="?unknown_attr_ref: 101007a" />
+    </RelativeLayout>
+    <TextView 
+    	android:textSize="28dp" 
+    	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" 
+    	android:id="@+id/connect_title" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="284.2969dp" 
+    	android:text="Connect your\nRASNET Device.." />
+    <Button 
+    	android:id="@+id/btn_connect" 
+    	android:background="@drawable/btn_connect" 
+    	android:layout_width="UNKNOWN_DATA_0x9f01" 
+    	android:layout_height="UNKNOWN_DATA_0x2001" 
+    	android:layout_marginTop="395dp" 
+    	android:layout_centerHorizontal="true" 
+    	android:onClick="onBtnConnect" />
+    <Button 
+    	android:id="@+id/btn_wifi" 
+    	android:background="@drawable/btn_wifi" 
+    	android:layout_width="UNKNOWN_DATA_0x9f01" 
+    	android:layout_height="UNKNOWN_DATA_0x2001" 
+    	android:layout_marginTop="433.2969dp" 
+    	android:layout_centerHorizontal="true" 
+    	android:onClick="onBtnWiFi" />
+    <Button 
+    	android:id="@+id/btn_cancel" 
+    	android:background="@drawable/btn_cancel" 
+    	android:visibility="gone" 
+    	android:layout_width="UNKNOWN_DATA_0x9f01" 
+    	android:layout_height="UNKNOWN_DATA_0x2001" 
+    	android:layout_marginTop="433.2969dp" 
+    	android:layout_centerHorizontal="true" 
+    	android:onClick="onBtnCancel" />
+    <TextView 
+    	android:textSize="14dp" 
+    	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" 
+    	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" 
+    	android:id="@+id/connect_pagelink" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="481.5938dp" 
+    	android:text="VIEW MANUAL" 
+    	android:layout_centerHorizontal="true" />
+</RelativeLayout>

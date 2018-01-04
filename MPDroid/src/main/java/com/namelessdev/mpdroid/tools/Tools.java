@@ -26,6 +26,7 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.widget.Toast;
 
+import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.util.Collection;
 
@@ -205,4 +206,17 @@ public final class Tools {
         return args;
     }
 
+    public static String get_EUCKR_string(final String str) {
+        if (!(str == null || str.isEmpty())) {
+            try {
+                String str_euckr = new String(str.getBytes("iso-8859-1"), "euc-kr");
+                if (str_euckr.length() != str_euckr.getBytes("euc-kr").length) {
+                    return str_euckr;
+                }
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
+        return str;
+    }
 }

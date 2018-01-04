@@ -26,6 +26,7 @@ import com.namelessdev.mpdroid.service.ServiceBinder;
 import com.namelessdev.mpdroid.service.StreamHandler;
 import com.namelessdev.mpdroid.tools.SettingsHelper;
 import com.namelessdev.mpdroid.tools.Tools;
+import com.tsengvn.typekit.Typekit;
 
 import org.a0z.mpd.MPDStatusMonitor;
 
@@ -433,6 +434,10 @@ public class MPDApplication extends Application implements
         super.onCreate();
         sInstance = this;
         Log.d(TAG, "onCreate Application");
+
+        Typekit.getInstance()
+                .addNormal(Typekit.createFromAsset(this, "NanumBarunGothic.otf"))
+                .addBold(Typekit.createFromAsset(this, "NanumBarunGothicBold.otf"));
 
         // Don't worry FOSS guys, crashlytics is not included in the "foss" flavour
         CrashlyticsWrapper.start(this);
